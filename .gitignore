@@ -1,0 +1,64 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+
+# Configuration (contains sensitive data)
+wp-config.php
+.env
+.env.*
+
+# Uploads and media
+/wp-content/uploads/
+
+# Cache and backup
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backup*/
+/wp-content/backups/
+/wp-content/ai1wm-backups/
+*.wpress
+/wp-content/w3tc-config/
+/wp-content/advanced-cache.php
+/wp-content/object-cache.php
+/wp-content/wp-cache-config.php
+
+# Debug log
+/wp-content/debug.log
+debug.log
+error_log
+
+# Plugin/theme generated files
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Node.js (if using build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.log
+*.sql
+*.gz
+*.tar
+*.zip
